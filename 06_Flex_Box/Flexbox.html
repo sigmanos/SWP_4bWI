@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        background-color: bisque;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+      }
+      .test {
+        background-color: red;
+        width: 200px;
+        height: 50px;
+        margin: 25px;
+        justify-content: space-evenly;
+      }
+
+      .container {
+        background-color: green;
+        display: flex;
+        height: 400px;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">eins</div>
+      <div class="box">zwo</div>
+      <div class="box">drei</div>
+      <div class="box">Beispiel Lorem ipsum dolor, sit amet</div>
+      <div class="test">das sollte rot sein!</div>
+    </div>
+
+    <div class="test">
+      <div class="box">eins</div>
+      <div class="box">zwo</div>
+      <div class="box">drei</div>
+      <div class="box">Beispiel Lorem ipsum dolor, sit amet</div>
+      <div class="test">das sollte rot sein!</div>
+    </div>
+  </body>
+</html>
